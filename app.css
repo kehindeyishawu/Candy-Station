@@ -50,6 +50,7 @@ section{
 #mainNavbar .navbar-brand {
     color: #FF0800;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 #headingGroup span {
@@ -90,6 +91,10 @@ footer{
     }
 }
 
-
+@media (max-width: 767px){
+    #mainNavbar .navbar-brand {
+        color: #FFF44F;
+    }
+}
 
 
